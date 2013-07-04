@@ -15,6 +15,9 @@
 @property (strong, nonatomic) IBOutlet UIImageView *saiImage;
 @property (strong, nonatomic) IBOutlet UILabel *nearestVenueLabel;
 @property (strong, nonatomic) IBOutlet UILabel *japaneseNameLabel;
+@property (strong, nonatomic) NSString * theDistance;
+
+@property (strong, nonatomic) IBOutlet UILabel *theDistanceLabel;
 
 @property(strong, nonatomic) NSMutableArray *FUCKYOU;
 @end
@@ -23,3 +26,5 @@
 CLLocationManager *locationManager;
 float thisVenueLat;
 float thisVenueLong;
+float thisDistVenueLat;
+float thisDistVenueLong;

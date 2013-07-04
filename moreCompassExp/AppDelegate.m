@@ -85,10 +85,7 @@
     CLLocation * ourlocation = [locations lastObject];
     NSDate* eventDate = ourlocation.timestamp;
     NSTimeInterval howRecent = [eventDate timeIntervalSinceNow];
-    //if (abs(howRecent) < 15.0) {
-    
-    // If the event is recent, do something with it.
-    //NSLog(@"latitude %+.6f, longitude %+.6f\n", ourlocation.coordinate.latitude, ourlocation.coordinate.longitude);
+  
     NSLog(@"this is from location manager: %f", ourlocation.coordinate.latitude);
     ourFloatLat = ourlocation.coordinate.latitude;
     ourFloatLong = ourlocation.coordinate.longitude;
@@ -100,10 +97,6 @@
     NSLog(@"this is from viewDidLoad");
  
     NSString *CurrentCoord = [NSString stringWithFormat:@"%@,%@", self.strLatitude, self.strLongitude];
-//    CLLocationCoordinate2D center = CLLocationCoordinate2DMake(ourFloatLat, ourFloatLong);
-//    MKCoordinateSpan span = MKCoordinateSpanMake(.05, .05);
-//    MKCoordinateRegion region = MKCoordinateRegionMake(center, span);
-
     
     allItems1 = [[NSMutableArray alloc] init];
     self.theItems = [[NSMutableArray alloc] init];

@@ -332,6 +332,7 @@
 				DD8CB5A21764001000404698 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

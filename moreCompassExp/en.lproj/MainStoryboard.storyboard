@@ -43,9 +43,16 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="バーベキューバー" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="iGw-NH-Z7h">
-                                <rect key="frame" x="45" y="480" width="220" height="40"/>
+                                <rect key="frame" x="55" y="0.0" width="220" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="22"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Distance..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TV8-Ca-ofZ">
+                                <rect key="frame" x="88" y="487" width="134" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="18"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -56,6 +63,7 @@
                         <outlet property="japaneseNameLabel" destination="iGw-NH-Z7h" id="ivm-05-gwu"/>
                         <outlet property="nearestPlaceLabel" destination="Nlb-Yv-y55" id="wRp-Cl-9MY"/>
                         <outlet property="saiImage" destination="BiJ-S4-gHP" id="JLH-Ns-bsR"/>
+                        <outlet property="theDistanceLabel" destination="TV8-Ca-ofZ" id="suu-cT-lqj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
